@@ -10,7 +10,7 @@
     {% for meme in memes_metadata %}
         <p>{{meme.id}}<p>
         <img src="{{ meme.url }}" alt="meme">
-        <button><a href="{{ meme.id }}">Edit</a></button>
+        <button><a href="/editmeme?id={{ meme.id }}">Edit</a></button>
     {% endfor %}
 </body>
 </html>
