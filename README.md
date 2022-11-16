@@ -1,2 +1,2 @@
-# DjangoProject
+# Meme-Generator-Application
 
